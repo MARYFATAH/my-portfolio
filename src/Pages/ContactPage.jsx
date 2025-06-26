@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { FiMail } from "react-icons/fi"; // Importing minimal email icon
+import { FiMail } from "react-icons/fi"; // Minimal email icon
 
 export default function ContactPage() {
   useEffect(() => {
@@ -13,14 +13,15 @@ export default function ContactPage() {
         {/* Image - Positioned Top Left */}
         <div className="w-full md:w-[600px] h-auto md:h-[80%] absolute top-0 left-0 z-0">
           <img
-            src="/src/assets/contact.jpg"
+            src="/contact.jpg"
             alt="Contact"
+            loading="lazy"
             className="w-[75%] h-[60vh] object-cover hover:scale-105 hover:shadow-xl transition-all duration-300 ease-in-out pointer-events-none"
           />
         </div>
 
         {/* Contact Details - Positioned Right */}
-        <div className="  sm:w-full md:w-[700px] p-6 md:mt-10 md:text-start sm:text-center sm:mt-0 sm:p-6 flex flex-col place-content-end justify-center ml-auto relative z-10">
+        <div className="sm:w-full md:w-[700px] p-6 md:mt-10 md:text-start sm:text-center sm:mt-0 flex flex-col justify-center ml-auto relative z-10">
           <h4 className="text-2xl md:text-3xl font-[Montserrat] text-gray-800 mb-2 hover:text-4xl transition-all duration-500">
             Contact Me
           </h4>
@@ -32,7 +33,6 @@ export default function ContactPage() {
           {/* Contact Info */}
           <div className="mt-4 text-gray-700 flex items-center">
             <FiMail className="text-gray-600 text-xl mr-2" />
-            {/* Minimal email icon */}
             <p className="text-lg font-[Montserrat]">
               My Email:
               <a
@@ -44,7 +44,7 @@ export default function ContactPage() {
             </p>
           </div>
 
-          {/* Social Media Links with Hover Effects */}
+          {/* Social Media Links */}
           <div className="flex space-x-6 mt-6">
             <a
               href="https://www.linkedin.com/in/maryamfattah/"
@@ -58,7 +58,7 @@ export default function ContactPage() {
               href="https://github.com/MARYFATAH"
               target="_blank"
               rel="noopener noreferrer"
-              className="  text-xl font-[Montserrat] text-gray-600 hover:text-gray-800 hover:underline transition-all duration-300"
+              className="text-xl font-[Montserrat] text-gray-600 hover:text-gray-800 hover:underline transition-all duration-300"
             >
               GitHub
             </a>

@@ -8,7 +8,7 @@ export default function BioPage() {
         {/* Image - Positioned Left */}
         <div className="w-full md:w-[600px] h-auto md:h-[80%] flex justify-start pl-20">
           <img
-            src="/src/assets/my-image.jpg"
+            src="/my-image.jpg"
             alt="My Profile"
             className="w-full h-auto md:h-[100%] object-cover  hover:scale-105 hover:shadow-xl transition-all duration-300 ease-in-out"
           />
