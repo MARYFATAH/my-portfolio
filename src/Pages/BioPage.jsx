@@ -32,7 +32,7 @@ export default function BioPage() {
 
           {/* CV Download Button */}
           <a
-            href="/src/assets/my-cv.pdf"
+            href="/mycv.pdf"
             download
             className="mt-6 inline-block px-6 py-3 text-xl mt-40 text-gray-800 font-[Montserrat]  hover:border-b-2 border-gray-800  transition-colors duration-300 w-[220px] "
           >
