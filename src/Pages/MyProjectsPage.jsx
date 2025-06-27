@@ -23,6 +23,10 @@ export default function ProjectPage() {
           <h4 className="text-3xl md:text-4xl font-[Montserrat] text-gray-800 mb-4 hover:text-gray-900 transition-colors duration-500">
             NASA Image Generator
           </h4>
+          <h3 className="text-base md:text-lg font-[Montserrat] text-gray-600 mb-2">
+            A React-based application that showcases stunning space imagery.
+            Built with JavaScript, React, and CSS.
+          </h3>
           <p className="text-base md:text-lg font-[Montserrat] text-gray-600 leading-relaxed hover:scale-105 transition-transform duration-500">
             This project fetches breathtaking space images from NASA's Astronomy
             Picture of the Day (APOD) API.
@@ -64,9 +68,13 @@ export default function ProjectPage() {
           <h4 className="text-3xl md:text-4xl font-[Montserrat] text-gray-800 mb-4 hover:text-gray-900 transition-colors duration-500">
             Student Monitoring App
           </h4>
+
           <p className="text-base md:text-lg font-[Montserrat] text-gray-600 leading-relaxed hover:scale-105 transition-transform duration-500">
             A powerful application designed to help educators and parents track
-            student progress, attendance, and performance.
+            student progress, attendance, and performance. A comprehensive
+            student management system for schools and educational institutions.
+            Built with JavaScript, React, and Tailwind CSS, React Native and
+            Express.js.
           </p>
           <div className="flex justify-center space-x-6 mt-6">
             <a
@@ -148,7 +156,10 @@ export default function ProjectPage() {
           </h4>
           <p className="text-base md:text-lg font-[Montserrat] text-gray-600 leading-relaxed hover:scale-105 transition-transform duration-500">
             A dynamic fitness platform where users can explore workouts, track
-            routines, and stay motivated with guided programs.
+            routines, and stay motivated with guided programs. Crafted in React
+            Native with Expo for mobile-first development. A dynamic fitness
+            platform where users can explore workouts, track routines, and stay
+            motivated with guided programs.
           </p>
           <div className="flex justify-center md:justify-start space-x-6 mt-6">
             <a
